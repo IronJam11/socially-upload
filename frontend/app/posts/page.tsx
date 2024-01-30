@@ -7,14 +7,14 @@ import Header from '@/app/components/header';
 import Posts from './posts';
 
  
- export default async function Home({params}:{params:any})
+ export default async function Home()
  { 
   const res = await axios.get("http://localhost:8000/post/");
   const info = res.data;
   console.log(info);
   console.log(typeof info)
   return(<>
-  <Posts info={info} id2 = {params.id} />
+  <Posts info={info}  />
   
   
    </>)

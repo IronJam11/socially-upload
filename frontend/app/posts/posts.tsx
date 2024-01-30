@@ -4,14 +4,14 @@ import React from "react";
 import Header from "@/app/components/header";
 import { CldImage, CldVideoPlayer } from "next-cloudinary";
 import axios from "axios";
-export default function Posts({info, id2}:{info:any, id2 :any})
+export default function Posts({info}:{info:any})
 {
     
     return(<>
         <Header />
          <div className="title">Feed </div> <br/>
          <button className='yellow' onClick={()=>{
-          window.location.href = `${id2}/newpost/${id2}`
+          window.location.href = `posts/newpost/`
          }}> New Post</button>
       
       

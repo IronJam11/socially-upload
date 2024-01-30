@@ -1,4 +1,4 @@
-import { getServerSession } from "next-auth";
+
 import { authOptions } from "./utils/auth";
 import LogoutButton from "./components/LogoutButton";
 import { Button } from "@/components/ui/button";
@@ -11,15 +11,11 @@ export default async function Home()
 
   return <> 
   <Header />
-  <div>You successfully logged in</div> 
-  <div className = "flex"><b> Go to </b> </div>
+  <div>SOCIALLY (OBVIOUSLY) </div> 
+  <div className = "flex"><b> TRY ONE OF OUR COOL FEATURES HEHE </b> </div>
 
-  <br/>
-  <a href="/blogpage">Blogs</a> <br/>
-  <a href="/posts">Posts</a> <br/>
-  <a href="/jokes">Jokes</a> <br/>
-  <a href="/memes">Memes</a> <br/>
-  <a href="/aboutus">About Us</a> <br/>
+   <img src="https://i.pinimg.com/236x/9c/50/f8/9c50f8e5567340cbb5f1d18548f84334.jpg" alt="gandu" />
+   
   
   </>
   

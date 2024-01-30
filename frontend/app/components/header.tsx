@@ -18,7 +18,7 @@ export default function Header()
   <a href="/posts">Posts</a>
   <a href="/jokes">Jokes</a>
   <a href="/memes">Memes</a>
-  <a href="/polls"> Polls </a>
+  <a href="http://localhost:7000/login/"> Date Mate </a>
   <a href="/aboutus">About Us</a>
   <UserButton afterSignOutUrl="/"/> 
 </nav>
